@@ -4,7 +4,7 @@ const app = express()
 app.use(express.json())
 
 app.listen(6060, () => {
-    console.log("Backend is working")
+    console.log("Backend is working.")
 })
 
 app.get('/greet', (req, res) => {
